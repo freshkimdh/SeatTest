@@ -10,7 +10,7 @@ import com.murgupluoglu.seatview.SeatView
 *  Copyright © 2020 Mustafa Ürgüplüoğlu. All rights reserved.
 */
 
-// 제목 수정 파일
+// screen 제목 수정 파일
 class CinemaScreenExtension(
     @ColorInt val screenBackgroundColor: Int = Color.RED,
     val screenPaintStyle: Paint.Style = Paint.Style.FILL,
