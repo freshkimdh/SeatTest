@@ -170,7 +170,8 @@ class CinemaScreenActivity : AppCompatActivity() {
                         seat.multipleSeats.add(oneSeatIdMultiple)
                     }
                 }
-
+                
+                // 좌석 현황 이미지 표시
                 if (seat.multipleType == Seat.MULTIPLETYPE.NOTMULTIPLE) {
                     seat.selectedDrawableResourceName = "seat_selected"
                     when (seatType) {
