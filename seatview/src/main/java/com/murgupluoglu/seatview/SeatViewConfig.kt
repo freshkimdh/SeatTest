@@ -10,7 +10,8 @@ import androidx.annotation.ColorInt
 */
 
 data class SeatViewConfig(
-
+    
+    // 페이지 패딩
     var leftPadding: Float = 50f,
     var rightPadding: Float = 50f,
     var topPadding: Float = 50f,
@@ -18,7 +19,7 @@ data class SeatViewConfig(
 
     var seatMinWidth: Float = 12f.dp2px(),
     var seatMaxWidth: Float = 30f.dp2px(),
-    var seatDefaultWidth: Float = 13f.dp2px(),
+    var seatDefaultWidth: Float = 20f.dp2px(), // 좌석 width 조정
     var seatWidthHeightRatio: Float = 1f,
     var seatInlineGapWidthRatio: Float = 0.265f,
     var seatNewlineGapWidthRatio: Float = 0.304f,
